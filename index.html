@@ -23,17 +23,17 @@
             background: #004080;
             padding: 15px 20px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .logo {
-            font-size: 22px;
-            font-weight: bold;
-            color: white;
+        .logo, .nav-links {
+            flex-grow: 1;
+            text-align: center;
         }
         .nav-links {
             display: flex;
+            justify-content: center;
             gap: 10px;
         }
         .nav-links a {
